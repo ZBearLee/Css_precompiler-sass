@@ -3,9 +3,9 @@
 **执行&运行**
 ```
 sass --watch sass:css    //实时编译
-3.sass --watch sass:css --style compact  //css输出格式为紧凑格式
-4.sass --watch sass:css --style compressed  //css输出格式为压缩格式
-5.sass --watch sass:css --style expanded  //css输出格式为拓展格式
+sass --watch sass:css --style compact  //css输出格式为紧凑格式
+sass --watch sass:css --style compressed  //css输出格式为压缩格式
+sass --watch sass:css --style expanded  //css输出格式为拓展格式
 ```
 
 *嵌套*
@@ -34,7 +34,7 @@ body{
 .alert-info{
     @include alert($background:#d9edf7,$text-color:#31708f)
 }
-12.extend的写法
+extend的写法
 .alert {
     padding: 15px;
     margin: 5px;
